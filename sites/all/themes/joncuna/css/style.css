@@ -4,7 +4,7 @@
 */
 
 a.logo img {
-    height: 45px;
+    height: 90px;
 }
 .play-button {
     height: 120px;
@@ -35,8 +35,13 @@ a.logo img {
 *
 **/
 div.enestar .navbar-default {
-    background-color: #333333;
-    border-color: #333333;
+    background-color:  #FFF;
+    border-color: #FFF;
+    color: #000;
+}
+a,
+.navbar-default .navbar-nav > li > a {
+    color: #000;
 }
 
 div.enestar .navbar-default .navbar-nav>.active>a,
@@ -44,11 +49,7 @@ div.enestar .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color:  #dd4814;
-}
-
-div.enestar a.logo img {
-    height: 65px;
+    background-color:  rgb(88, 88, 89);
 }
 
 div.enestar  ul.navbar-nav {
@@ -56,8 +57,12 @@ div.enestar  ul.navbar-nav {
 }
 
 div.enestar .btn-default {
-    background-color: #dd4814;
-    border-color: #dd4814;
+    background-color:  rgb(88, 88, 89);
+    border-color: rgb(88, 88, 89);
+}
+
+div.enestar .btn-default:hover {
+    opacity: 0.6;
 }
 
 div.enestar .inner-slider {
@@ -70,5 +75,5 @@ div.enestar .slider-parent {
     padding-top:20px;
     height: 350px;
     background-size: cover;
-    background: url('/sites/default/files/Z.jpg') no-repeat center;
+    /*background: url('/sites/default/files/Z.jpg') no-repeat center;*/
 }

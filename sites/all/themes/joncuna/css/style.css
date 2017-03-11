@@ -1,0 +1,74 @@
+/*
+* Main Style file
+*
+*/
+
+a.logo img {
+    height: 45px;
+}
+.play-button {
+    height: 120px;
+    width: 120px;
+    background-image: url(/sites/default/files/default_images/playbutton.png);
+    display: inline;
+    float: left;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    text-indent: -9999px;
+    margin-top: -40%;
+    margin-left: 40%;
+}
+
+.play-button:hover {
+    opacity: 0.8;
+}
+
+.page-title {
+    margin-left: 15px;
+}
+
+
+/*
+*
+* Enestar
+*
+**/
+div.enestar .navbar-default {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+div.enestar .navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color:  #dd4814;
+}
+
+div.enestar a.logo img {
+    height: 65px;
+}
+
+div.enestar  ul.navbar-nav {
+    border-bottom: 1px #fff4f4 solid;
+}
+
+div.enestar .btn-default {
+    background-color: #dd4814;
+    border-color: #dd4814;
+}
+
+div.enestar .inner-slider {
+    max-width: 600px;
+    margin: auto;
+}
+
+div.enestar .slider-parent {
+    margin-bottom: 15px;
+    padding-top:20px;
+    height: 350px;
+    background-size: cover;
+    background: url('/sites/default/files/Z.jpg') no-repeat center;
+}

@@ -77,3 +77,7 @@ div.enestar .slider-parent {
     background-size: cover;
     /*background: url('/sites/default/files/Z.jpg') no-repeat center;*/
 }
+
+.fixed-height-84 p {
+    height: 84px;
+}
